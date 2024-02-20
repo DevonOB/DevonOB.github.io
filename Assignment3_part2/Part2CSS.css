@@ -1,5 +1,6 @@
 html {
     font-family: sans-serif;
+    font-size: 16px
   }
   
   /* Your CSS below here */
@@ -13,4 +14,7 @@ div {
   line-height: 150px;
   margin: auto;
   background-color: red;
+  font-size: 1.125rem; /* 18 pixels / 16 pixels = 1.125rem */
+  color: white;
+  text-shadow: 2px 2px black;
 }
