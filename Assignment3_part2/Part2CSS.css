@@ -8,7 +8,9 @@ div {
   width: 200px;
   height: 150px;
   text-align: center;
+  vertical-align: middle;
   padding: 20px;
+  line-height: 150px;
   margin: auto;
   background-color: red;
 }
