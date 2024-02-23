@@ -95,3 +95,26 @@ p
     line-height: 20px;
 
 }
+
+a[href^="http"]::after, a[href^="https://"]::after
+{
+  content: "";
+  width: 11px;
+  height: 11px;
+  margin-left: 4px;
+  background-image: url(external-link-52.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+a:link, a:visited 
+{
+    color: #a66;
+    text-decoration: underline;
+}
+a:hover 
+{
+    text-decoration: none;
+}
