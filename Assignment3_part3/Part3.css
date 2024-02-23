@@ -11,6 +11,7 @@
     max-width: 1400px;
     font-family: 'Courier Prime' serif;
     font-size: 1.6rem;
+    word-spacing: 1.1;
   }
   
   /* Layout */
@@ -78,14 +79,19 @@ h1
 {
     font-family: 'LMRomanSlant10';
     font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: 1.2rem;
 }
 h2
 {
     font-family: 'LMRomanSlant10';
     font-size: 2.5rem;
+    letter-spacing: 0.5rem;
 }
 
 p
 {
-    text-indent: 30px;
+    text-indent: 20px;
+    line-height: 20px;
+
 }
