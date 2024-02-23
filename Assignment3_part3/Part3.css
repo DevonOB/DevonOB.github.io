@@ -8,6 +8,7 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
+    font-family: 'Courier Prime';
   }
   
   /* Layout */
@@ -43,3 +44,11 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  @font-face {
+    font-family: 'Courier Prime';
+    src: url("DevonOB.github.io\Assignment3_part3\CourierPrime.woff2") format('woff2'),
+        url("DevonOB.github.io\Assignment3_part3\CourierPrime.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
