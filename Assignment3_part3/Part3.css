@@ -118,3 +118,10 @@ a:hover
 {
     text-decoration: none;
 }
+
+nav a{
+    height: 50px;
+    width: 70px;
+    padding: 10px;
+    display: block;
+}
