@@ -50,12 +50,12 @@
   
   @font-face {
     font-family: 'LMRomanSlant10';
-    src: url("C:/Users/Devon/Downloads/transfonter.org-20240223-012332/LMRomanSlant10-Bold.eot");
-    src: url("C:/Users/Devon/Downloads/transfonter.org-20240223-012332/LMRomanSlant10-Regular.eot?#iefix") format('embedded-opentype'),
-        url("C:/Users/Devon/Downloads/transfonter.org-20240223-012332/LMRomanSlant10-Bold.woff2") format('woff2'),
-        url("C:/Users/Devon/Downloads/transfonter.org-20240223-012332/LMRomanSlant10-Bold.woff") format('woff'),
-        url("C:/Users/Devon/Downloads/transfonter.org-20240223-012332/LMRomanSlant10-Bold.ttf") format('truetype'),
-        url("C:/Users/Devon/Downloads/transfonter.org-20240223-012332/LMRomanSlant10-Bold.svg") format('svg');
+    src: url("LMRomanSlant10-Bold.eot");
+    src: url("LMRomanSlant10-Bold.eot?#iefix") format('embedded-opentype'),
+        url("LMRomanSlant10-Bold.woff2") format('woff2'),
+        url("LMRomanSlant10-Bold.woff") format('woff'),
+        url("LMRomanSlant10-Bold.ttf") format('truetype'),
+        url("LMRomanSlant10-Bold.svg") format('svg');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'Courier Prime';
-    src: url("C:\Users\Devon\Documents\GitHub\DevonOB.github.io\Assignment3_part3\CourierPrime.woff2") format('woff2'),
-        url("C:\Users\Devon\Documents\GitHub\DevonOB.github.io\Assignment3_part3\CourierPrime.woff") format('woff');
+    src: url("CourierPrime.woff2") format('woff2'),
+        url("CourierPrime.woff") format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
