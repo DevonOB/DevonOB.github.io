@@ -23,3 +23,21 @@ for(x in images){
 }
 
 /* Wiring up the Darken/Lighten button */
+
+
+btn.addEventListener('click', changeBrightness)
+
+function changeBrightness() {
+    const brightness = btn.getAttribute('class')
+    if (brightness === 'dark') {
+        btn.setAttribute('class', 'light');
+        overlay.style.backgroundColor = 'rgba(0,0,0,0.5';
+        btn.textContent = "Lighten";
+    }
+    else {
+        btn.setAttribute('class', 'dark');
+        overlay.style.backgroundColor = 'rgba(0,0,0,0)';
+        btn.textContent = "Darken";
+    }
+}
+
