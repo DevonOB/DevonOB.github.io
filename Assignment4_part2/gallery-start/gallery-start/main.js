@@ -8,13 +8,18 @@ const overlay = document.querySelector('.overlay');
 const images = ["images/pic1.jpg", "images/pic2.jpg", "images/pic3.jpg", "images/pic4.jpg", "images/pic5.jpg"]
 
 /* Declaring the alternative text for each image file */
-const alt_descriptions = ["Closeup of an eye", "Patterened rock wall", "Purple and white flowers", "Ancient Egyptian hyroglifics", "Moth on leaf"]
+const alt_descriptions = {"pic1.jpg" : "Closeup of a human eye", "images/pic2.jpg" : "Patterened rock wall", "images/pic3.jpg" : "Purple and white flowers", "images/pic4.jpg" : "Ancient Egyptian hyroglifics", "images/pic5.jpg" : "Moth on leaf"}
 
 /* Looping through images */
-
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
+for(x in images){
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', images[x]);
+    newImage.setAttribute('alt', alt_descriptions[x]);
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener('click', clickedImaged => {
+        displayedImage.src = clickedImaged.target.src,
+        displayedImage.alt = clickedImage.target.alt
+    });
+}
 
 /* Wiring up the Darken/Lighten button */
