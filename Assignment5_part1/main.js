@@ -5,7 +5,17 @@ const commentWrapper = document.querySelector('.comment-wrapper');
 
 commentWrapper.style.display = 'none';
 
+showHideBtn.addEventListener('keydown', function(event) {
+  if (event.keyCode === 13) { // Check if Enter key is pressed
+    toggleCommentsVisibility();
+  }
+});
+
 showHideBtn.onclick = function() {
+  toggleCommentsVisibility()
+}
+
+function toggleCommentsVisibility() {
   let showHideText = showHideBtn.textContent;
   if(showHideText === 'Show comments') {
     showHideBtn.textContent = 'Hide comments';
