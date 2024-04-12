@@ -6,7 +6,7 @@ const commentWrapper = document.querySelector('.comment-wrapper');
 commentWrapper.style.display = 'none';
 
 showHideBtn.addEventListener('keydown', function(event) {
-  if (event.keyCode === 13) { // Check if Enter key is pressed
+  if (event.keyCode === 13) { 
     toggleCommentsVisibility();
   }
 });
