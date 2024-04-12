@@ -32,7 +32,7 @@ font[size="7"] {
   font-size: 4rem;
   text-align: center;
   color: black;
-  text-shadow: 2px 2px 10px black;
+  text-shadow: 1px 1px 5px rgb(47, 47, 47);
 }
 
 font[size="6"] {
@@ -52,7 +52,7 @@ p, li, table {
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
-  background-color: rgb(81, 140, 81);
+  background-color: rgb(70, 171, 70);
 }
 
 article, footer, .secondary {
